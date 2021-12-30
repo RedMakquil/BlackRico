@@ -7,9 +7,9 @@ Whats bot - Adeesha
 
 const Rico = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const DEL_DESC = "Deletes The Replied Message Send By The Bot"
+const DEL_DESC = "Deletes The Replied Message Send By The Bot 👹👹/n 🔥Warning🔥/nThis Plugin Crrated by Cyber Draco 🔥"
 
-Rico.addCommand({pattern: 'del', fromMe: false, desc: DEL_DESC}, (async (message, match) => {
+Rico.addCommand({pattern: 'del', fromMe: true, desc: DEL_DESC}, (async (message, match) => {
 
   await message.reply_message.delete();
 
