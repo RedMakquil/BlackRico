@@ -63,7 +63,6 @@
     "pg": "^8.5.1",
     "queenamdi-public": "^1.0.7",
     "sequelize": "^6.5.1",
-    "sewqueen-rs": "1.3.1"
     "simple-git": "^2.37.0",
     "sozlukjs": "^1.1.0",
     "spotify-web-api-node": "^5.0.0",
