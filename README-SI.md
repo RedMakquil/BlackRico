@@ -11,7 +11,6 @@
 </div>
 
 
-
 ---
 > Deploy Your Bot On Heroku ✏
 <div align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/Dinuka01/BlackRico.git"><img src="https://i.ibb.co/WPRfjrZ/c6eb7d6b6606.png" width="200" ></a></div>
