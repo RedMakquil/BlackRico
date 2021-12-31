@@ -197,8 +197,10 @@
             "DOWNLOADING": "```මාධ්‍ය download කිරීම සහ ස්ටිකර් බවට පරිවර්තනය කිරීම...```"
         },
         "system_stats": {
-            "ALIVE_DESC": "බොට් වැඩ කරන්නේ නැද්ද යන්න පරීක්ෂා කිරීමට?",
-            "SYSD_DESC": "System properties පෙන්වයි."
+            "ALIVE_DESC": "Check bot online or not",
+            "SYSD_DESC": "System properties.",
+            "BOT_V": "Check version of bot.",
+            "version": "3.0.9 - Public Release"
         },
         "tagall": {
             "TAGALL_DESC": "කණ්ඩායමේ සිටින සියල්ලන් ටැග් කරයි.",
