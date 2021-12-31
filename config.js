@@ -19,7 +19,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v3.0.3 Public Stable',
+    VERSION: 'v3.9.3 Public Stable',
     SESSION: process.env.BLACKRICO_SESSION === undefined ? '' : process.env.BLACKRICO_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
