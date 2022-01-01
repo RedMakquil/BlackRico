@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "EN",
-    "AUTHOR": "RicoDev",
+    "AUTHOR": "AsenaDev",
     "STRINGS": {
         "_rico": {
             "COMMAND": "විධානය",
@@ -200,7 +200,7 @@
             "ALIVE_DESC": "Check bot online or not",
             "SYSD_DESC": "System properties.",
             "BOT_V": "Check version of bot.",
-            "version": "3.0.9 - Public Release"
+            "version": "4.0.3V - Public Release"
         },
         "tagall": {
             "TAGALL_DESC": "කණ්ඩායමේ සිටින සියල්ලන් ටැග් කරයි.",
