@@ -167,7 +167,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'}); 
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username*: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n* ' + conn.user.name + ', BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'}); 
                 }
             }
             else {
@@ -189,7 +189,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username*: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'});
                 }
 
             }
