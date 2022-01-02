@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 BlackRico.
+/* Copyright (C) 2021 BlackRico.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -10,7 +10,7 @@ const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Özel Fonksiyonlarımız
+// BlackRico WA BOT
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -54,13 +54,12 @@ module.exports = {
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     OWN: process.env.OWN === undefined ? '13374486428,0' : process.env.OWN,
-    OWN2: process.env.OWN2 === undefined ? '94741026902,0' : process.env.OWN2,
+    OWN2: process.env.OWN2 === undefined ? '94752279625,0' : process.env.OWN2,
     OWN3: process.env.OWN3 === undefined ? '94761209144,0' : process.env.OWN3,
-    OWN4: process.env.OWN4 === undefined ? '94752279625,0' : process.env.OWN4,
+    OWN4: process.env.OWN4 === undefined ? '94741026902,0' : process.env.OWN4,
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    AMDANIWASA: "393475528094-1415817281",
-    SUPPORT1: "94757405652-1631633729",
-    SUPPORT2: "94757405652-1631905677"
+    SUPPORT1: "94784621232-1635496328",
+    SUPPORT2: "94711176745"
 }; 
