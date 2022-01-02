@@ -1,5 +1,4 @@
-/* Coded By Dinuka.
-Help = Nico
+/* Copyright (C) 2021.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -142,12 +141,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed Now You can use BLACKRICO!')
+            chalk.green.bold('✅ Plugins Installed Now You can use BLACK RICO!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
         if (config.WORKTYPE == 'public') {
-            if (config.LANG == 'EN' || config.LANG == 'SI') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 if (conn.user.jid === '@s.whatsapp.net') {
 
@@ -167,7 +166,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username*: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n* ' + conn.user.name + ', BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'}); 
+                     await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username:* ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .panel command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.var WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*',});
                 }
             }
             else {
@@ -189,13 +188,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username*: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*'});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO public ආකාරයට ක්‍රියා කරයි.*\n\n*Username: ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .panel command බාවිතා කල හැකිය.*\n\n*ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.var WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි*', });
                 }
 
             }
         }
         else if (config.WORKTYPE == 'private') {
-            if (config.LANG == 'EN' || config.LANG == 'SI') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 if (conn.user.jid === '@s.whatsapp.net') {
 
@@ -215,7 +214,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO private ආකාරයට ක්‍රියා කරයි.*\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි.*'});
+                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO private ආකාරයට ක්‍රියා කරයි.*\n\n*Username:* ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .panel command බාවිතා කල හැකිය.*\n\n*ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.var WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි.*', });
                 }
             }
             else {
@@ -238,11 +237,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO private ආකාරයට ක්‍රියා කරයි.*\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .RICO command බාවිතා කල හැකිය.*\n\n*ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි.*'});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*BLACK RICO private ආකාරයට ක්‍රියා කරයි.*\n\n*Username:* ' + conn.user.name + '\n\n_මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකය වේ._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ command list එක ලබාගැනීමට .panel command බාවිතා කල හැකිය.*\n\n*ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.var WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*BLACK RICO භාවිතා කිරීම ගැන ස්තූතියි.*', });
                 }
             }
         }
-        else {
+        else {e
             return console.log('Wrong WORK_TYPE key! Please use “private” or “public”')
         }
     });
@@ -259,14 +258,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             // see you message
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/BLACKRICO/media/gif/VID-20210518-WA0060.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/BLACK RICO/media/gif/VID-20210518-WA0060.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // Welcome message
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/BLACKRICO/media/gif/VID-20210518-WA0059.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/BLACK RICO/media/gif/VID-20210518-WA0059.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         }
@@ -277,11 +276,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var abc = config.BLOCKCHAT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT1 == '94757405652-1631633729') {     
+        if (config.SUPPORT1 == '94784621232-1635496328') {     
             var tsup = config.SUPPORT1.split(',');                            
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT2 == '94757405652-1631905677') {     
+        if (config.SUPPORT2 == '94711176745') {     
             var nsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
@@ -321,7 +320,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-                    if ((config.OWN !== false && msg.key.fromMe === false && command.fromMe === true &&
+                   if ((config.OWN !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.OWN.includes(',') ? config.OWN.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.OWN || config.OWN.includes(',') ? config.OWN.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.OWN)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
@@ -336,17 +335,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-
                     if ((config.OWN3 !== false && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && config.OWN3.includes(',') ? config.OWN3.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.OWN3 || config.OWN3.includes(',') ? config.OWN3.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.OWN3)
-                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
-                        if (command.onlyPinned && chat.pin === undefined) return;
-                        if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
-                        else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
-                    }
-
-                    if ((config.OWN4 !== false && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && config.OWN4.includes(',') ? config.OWN4.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.OWN4 || config.OWN4.includes(',') ? config.OWN4.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.OWN4)
+                        (msg.participant && config.OWN3.includes(',') ? config.OWN3.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.OWN2 || config.OWN3.includes(',') ? config.OWN3.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.OWN3)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
@@ -377,24 +367,24 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         try {
                             await command.function(whats, match);
                         } catch (error) {
-                            if (config.LANG == 'EN' || config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [BLACK RICO] --*' + 
+                            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/ERR.jpg"), MessageType.image, { caption: '*-- දෝෂ වාර්තාව [BLACK RICO] --*' + 
                                     '\n*Bot දෝෂයක් සිදුවී ඇත!*'+
                                     '\n_මෙම දෝෂ logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_මෙම පණිවිඩය ඔබගේ අංකයට ගොස් තිබිය යුතුය (සුරකින ලද පණිවිඩ)_' +
                                     '\nhttps://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K ඔබට එය මෙම group යොමු කළ හැකිය._\n\n' +
                                     '*සිදු වූ දෝෂය:* ```' + error + '```\n\n'
-                                    , MessageType.text, {detectLinks: false});
+                                    , });
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [BLACK RICO] --*' + 
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/hd.jpg"), MessageType.image, { caption: '*-- දෝෂ වාර්තාව [BLACK RICO] --*' + 
                                     '\n*බොට් නිසි ලෙස ක්‍රියා කරයි.*'+
                                     '\n_Message logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_(සුරකින ලද පණිවිඩ)_' +
                                     '\n_ඔබේ bot සඳහා යම් උදව්වක් අවශ්‍ය නම්, https://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K වෙත පිවිසෙන්න...\n\n' +
                                     '*Report:* ```' + error + '```\n\n'
-                                    , MessageType.text);
+                                    , });
                             }
                         }
                     }
@@ -407,7 +397,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී...'))
+            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී 😈...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
