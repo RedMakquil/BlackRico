@@ -200,9 +200,7 @@
             "ALIVE_DESC": "Check bot online or not",
             "SYSD_DESC": "System properties.",
             "BOT_V": "Check version of bot.",
-            "version": "4.0.3v - Public Edition",
-            "RULE_DESC": "Shows setted rules by Group Admins",
-            "rules": "*There is no rules setted by Admins.*"
+            "version": "4.0.3 - Public Release"
         },
         "tagall": {
             "TAGALL_DESC": "කණ්ඩායමේ සිටින සියල්ලන් ටැග් කරයි.",
