@@ -3,7 +3,7 @@
     "description": "BLACKRICO is a chat bot for WhatsApp.",
     "logo": "https://telegra.ph/file/24cacd9938446a38180fd.png",
     "keywords": ["whatsapp"],
-    "repository": "https://github.com/Dinuka01/BlackRico",
+    "repository": "https://github.com/CyberDraco/BlackRico",
     "website":   "https://chat.whatsapp.com/E76o3j6g2NpFZ",
     "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
     "stack": "container",
